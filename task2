@@ -1,9 +1,9 @@
 from data import dataset
 
 
-#    Створити пакет validators та написати функції, що валідують усі дані. Імпорутвати дані функції.
 
-from validators.lib import getUserNumber, getClassName, getTopicsName
+
+from validators import getUserNumber, getClassName, getTopicsName
 
 from task1 import addUserClass
 
